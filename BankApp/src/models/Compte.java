@@ -6,6 +6,17 @@ public class Compte {
     private double solde;
     private User owner;
     
+    public Compte(int RIP,double solde, User owner){
+        this.RIP = RIP;
+        this.solde = solde;
+        this.owner = owner;
+    }
+
+    public Compte(int RIP,double solde){
+        this.RIP = RIP;
+        this.solde = solde;
+    }
+
     public int getRIP() {
         return RIP;
     }

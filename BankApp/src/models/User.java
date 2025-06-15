@@ -55,4 +55,10 @@ public abstract class User {
     public void setComptes(List<Compte> comptes) {
         this.comptes = comptes;
     }
+
+    
+    public String infos(){
+        String infos = "Id : " + this.id + " Name : " + this.name + " UserName : " + this.userName;
+        return infos;
+    }
 }
